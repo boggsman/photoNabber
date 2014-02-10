@@ -1,0 +1,68 @@
+body {
+    background-image:url('../images/green_bg.png');
+    font-family: tahoma;
+}
+#container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main_content {
+    clear: both;
+    /*border: 1px solid orange; */
+    width: 1024px;
+}
+#instructions {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+    margin-bottom: 30px;
+}
+#links ul li {
+    display: inline;
+    list-style-type: none;
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#links ul {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid red;*/
+}
+#about {
+    display: none;
+}
+#got_photos{
+    display: none;
+}
+#step_one, #step_two, #step_three {
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 1.25em;
+}
+#enabled_photos {
+    display: none;
+}
+#enabled_download {
+    display: none;
+}
+#ui-widget-overlay {
+    background-color: #000;
+}
+#photos {
+    display: block;
+    clear: both;
+    top: 20px;
+    left: 80px;
+    width: 750px;
+    height: 120px;
+}
+.fb_photo {
+    border: 1px solid black;
+    margin: 5px;
+}

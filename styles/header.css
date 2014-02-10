@@ -1,0 +1,49 @@
+#header {
+    background-image:url('../images/blue_bg.png');
+    background-position: center center;
+    width: 1024px;
+    height: 197px;
+    /*border: 1px solid red; */
+}
+#menu {
+    position: relative;
+    top: 25px;
+    left: 10px;
+    /*border: 1px solid red;*/
+    width: 150px;
+    float: left;
+}
+#menu ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+#logo {
+    position: relative;
+    background-image:url('../images/logo.png');
+    top: 30px;
+    left: 60px;
+    width: 561px;
+    height: 119px;
+    float: left;
+}
+#aboutButton {
+    cursor: pointer;
+}
+#dontateButton {
+    cursor: pointer;
+}
+#advertiseButton {
+    cursor: pointer;
+}
+#welcome_div {
+    position: relative;
+    top: 0px;
+    left: 400px;
+    color: #000;
+    clear: both;
+    font-size: 1.25em;
+    font-weight: bold;
+    display: none;
+    /*border: 1px solid red;*/
+    width: 400px;
+}
